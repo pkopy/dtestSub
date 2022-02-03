@@ -1,0 +1,3 @@
+[submodule "charts"]
+	path = charts
+	url = http://gitlab.qed.local/qeda/charts.git

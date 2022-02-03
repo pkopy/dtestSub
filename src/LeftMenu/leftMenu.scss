@@ -1,0 +1,32 @@
+.left_menu {
+  width: 20rem;
+  background: #202b2f;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-btn {
+  padding: 0.5rem 7rem;
+}
+
+.circle {
+  width: 3.33%;
+  height: 3.33%;
+  position: absolute;
+  //position: absolute;
+  //border: 2px solid blue;
+  left: 9.3%;
+  top: 15.55%;
+  transition: 0.1s;
+  border-radius: 50%;
+  //visibility: hidden;
+  z-Index: 10;
+
+  &:hover {
+    //visibility: visible;
+    cursor: pointer;
+    border: 2px solid #0f1117;
+  }
+
+}
